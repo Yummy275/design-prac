@@ -3,7 +3,9 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            <h1>HELLO</h1>
+            <div className="outer d-flex justify-content-center align-items-center">
+                <div className="inner"></div>
+            </div>
         </div>
     );
 }
