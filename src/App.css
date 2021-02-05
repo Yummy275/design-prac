@@ -8,6 +8,25 @@ body {
     background-position: bottom left;
     background-size: 400% 400%;
     height: 100vh;
+    animation: scollingBg 120s linear infinite;
+}
+
+@keyframes scollingBg {
+    0% {
+        background-position: bottom left;
+    }
+    25% {
+        background-position: top right;
+    }
+    50% {
+        background-position: top left;
+    }
+    75% {
+        background-position: bottom right;
+    }
+    100% {
+        background-position: bottom left;
+    }
 }
 
 .inner {
