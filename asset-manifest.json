@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/design-prac/static/css/main.bab0b925.chunk.css",
+    "main.js": "/design-prac/static/js/main.e39308e2.chunk.js",
+    "main.js.map": "/design-prac/static/js/main.e39308e2.chunk.js.map",
+    "runtime-main.js": "/design-prac/static/js/runtime-main.63aaecfc.js",
+    "runtime-main.js.map": "/design-prac/static/js/runtime-main.63aaecfc.js.map",
+    "static/js/2.e0deaeeb.chunk.js": "/design-prac/static/js/2.e0deaeeb.chunk.js",
+    "static/js/2.e0deaeeb.chunk.js.map": "/design-prac/static/js/2.e0deaeeb.chunk.js.map",
+    "index.html": "/design-prac/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/design-prac/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.e0deaeeb.chunk.js.LICENSE.txt": "/design-prac/static/js/2.e0deaeeb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63aaecfc.js",
+    "static/js/2.e0deaeeb.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.e39308e2.chunk.js"
+  ]
+}
