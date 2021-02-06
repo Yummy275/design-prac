@@ -1,40 +1,6 @@
 html,
 body {
     height: 100vh;
-}
-
-.outer {
-    background-image: url('./images/tall-long.jpg');
-    background-position: bottom left;
-    background-size: 400% 400%;
-    height: 100vh;
-    animation: scollingBg 180s linear infinite;
-}
-
-@keyframes scollingBg {
-    0% {
-        background-position: bottom left;
-    }
-    25% {
-        background-position: top right;
-    }
-    50% {
-        background-position: top left;
-    }
-    75% {
-        background-position: bottom right;
-    }
-    100% {
-        background-position: bottom left;
-    }
-}
-
-.inner {
-    background-color: rgba(251 251 234 / 70%);
-    height: 85vh;
-    width: 70vw;
-    -webkit-box-shadow: 3px 3px 10px 5px rgba(69, 69, 69, 0.7);
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px,
-        rgba(0, 0, 0, 0.24) 0px -12px 30px, rgba(0, 0, 0, 0.24) 0px 4px 6px,
-        rgba(0, 0, 0, 0.34) 0px 12px 13px, rgba(0, 0, 0, 0.18) 0px -3px 5px;
+    background-image: url('./images/white-bg.png');
+    font-family: 'Amiri', serif;
 }
