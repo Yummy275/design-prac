@@ -5,11 +5,21 @@ import WineSelectionTab from './WineSelectionTab';
 
 import la from '../images/arrowbtnL.svg';
 import ra from '../images/arrowbtnR.svg';
+import tabOneImg from '../images/house-wine.jpg';
+import tabTwoImg from '../images/famous-wine.jpeg';
+import tabThrImg from '../images/wine-tasting-one.jpg';
 
 const WineSelection = () => {
     const [activeTab, setActiveTab] = useState(0);
 
     const tabsContainerRef = useRef();
+
+    const tabOneDesc =
+        'Our classic house wines created right here, with love and care.';
+    const tabTwoDesc =
+        'Famous wines from around the world inluding Marchesi Antinori, Harlan Estate, and more.';
+    const tabThrDesc =
+        'House and famous wines that are in limited supply. VIP Only.';
 
     const raClick = () => {
         if (activeTab == 0) {
@@ -57,9 +67,21 @@ const WineSelection = () => {
                         ref={tabsContainerRef}
                         className={styles.tabsContainer}
                     >
-                        <WineSelectionTab></WineSelectionTab>
-                        <WineSelectionTab></WineSelectionTab>
-                        <WineSelectionTab></WineSelectionTab>
+                        <WineSelectionTab
+                            title="House Wines"
+                            pic={tabOneImg}
+                            desc={tabOneDesc}
+                        ></WineSelectionTab>
+                        <WineSelectionTab
+                            title="World Famous"
+                            pic={tabTwoImg}
+                            desc={tabTwoDesc}
+                        ></WineSelectionTab>
+                        <WineSelectionTab
+                            title="Private Selection"
+                            pic={tabThrImg}
+                            desc={tabThrDesc}
+                        ></WineSelectionTab>
                     </div>
                 </div>
                 <img

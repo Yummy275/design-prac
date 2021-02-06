@@ -3,22 +3,17 @@ import styles from './WineSelectionTab.module.css';
 import houseBlendImg from '../images/house-wine.jpg';
 import Card from 'react-bootstrap/Card';
 
-const WineTastingTab = () => {
+const WineTastingTab = ({ title, pic, desc }) => {
+    //splits title into ar of 2 strings
+    const wordArr = title.split(' ');
     return (
         <Card className="stdBoxShadow" className={styles.mainContainer}>
-            <Card.Img
-                className={styles.cardImg}
-                variant="top"
-                src={houseBlendImg}
-            />
+            <Card.Img className={styles.cardImg} variant="top" src={pic} />
             <Card.Body style={{ backgroundColor: '#373e4033' }}>
                 <Card.Title>
-                    <span className="redText">House</span> Blend
+                    <span className="redText">{wordArr[0]}</span> {wordArr[1]}
                 </Card.Title>
-                <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                </Card.Text>
+                <Card.Text>{desc}</Card.Text>
             </Card.Body>
         </Card>
     );
