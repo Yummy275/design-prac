@@ -30,8 +30,6 @@
     width: 34.5rem;
     display: flex;
     text-align: center;
-    transition: translate 1s ease-in;
-    transform: translate(0);
 }
 
 @media (min-width: 768px) {
@@ -46,7 +44,7 @@
 }
 
 .arrow {
-    height: 4rem;
+    height: 3rem;
     width: 1.2rem;
     margin: 0 auto 0 auto;
 }
