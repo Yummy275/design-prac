@@ -9,7 +9,10 @@ const WineTastingTab = ({ title, pic, desc }) => {
     return (
         <Card className="stdBoxShadow" className={styles.mainContainer}>
             <Card.Img className={styles.cardImg} variant="top" src={pic} />
-            <Card.Body style={{ backgroundColor: '#373e4033' }}>
+            <Card.Body
+                className={styles.cardBody}
+                style={{ backgroundColor: '#373e4033' }}
+            >
                 <Card.Title>
                     <span className="redText">{wordArr[0]}</span> {wordArr[1]}
                 </Card.Title>

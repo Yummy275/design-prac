@@ -37,7 +37,6 @@ const WineSelection = () => {
         }
     };
 
-    console.log(activeTab);
     return (
         <div className={styles.mainContainer}>
             <div className={styles.titleDiv}>
