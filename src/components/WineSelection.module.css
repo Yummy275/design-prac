@@ -1,0 +1,22 @@
+.mainContainer {
+    margin-top: 1rem;
+}
+
+.titleDiv {
+    height: 4rem;
+    text-align: center;
+}
+
+.tabsContainer {
+    display: flex;
+    text-align: center;
+    width: 12rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.arrow {
+    height: 6rem;
+    width: 1.2rem;
+    margin: 0 auto 0 auto;
+}

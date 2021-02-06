@@ -7,8 +7,15 @@
 .tableImg {
     height: 9rem;
     max-width: 600px;
-    width: 14rem;
+    width: 13rem;
     margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+    .tableImg {
+        width: 18rem;
+        height: 11rem;
+    }
 }
 
 @media (min-width: 992px) {

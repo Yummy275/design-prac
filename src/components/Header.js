@@ -4,7 +4,10 @@ const Header = () => {
     return (
         <div className={`${styles.headerCon} stdBoxShadow`}>
             <div className={`${styles.words} stdBoxShadow`}>
-                <h1 style={{ color: '#ff3f3f', fontFamily: 'Charm, cursive' }}>
+                <h1
+                    className="redText"
+                    style={{ fontFamily: 'Charm, cursive' }}
+                >
                     Globules Vineyard
                 </h1>
             </div>
