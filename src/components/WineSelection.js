@@ -21,7 +21,10 @@ const WineSelection = () => {
                 </h2>
             </div>
             <div className={styles.blendsContainer}>
-                <img className={`${styles.arrow} d-md-none`} src={la}></img>
+                <img
+                    className={`${styles.arrow} ${styles.la} </div>la} d-md-none`}
+                    src={la}
+                ></img>
                 <div className={styles.tabsWindow}>
                     <div
                         ref={tabsContainerRef}
@@ -33,7 +36,7 @@ const WineSelection = () => {
                     </div>
                 </div>
                 <img
-                    className={`${styles.arrow} d-md-none`}
+                    className={`${styles.arrow} ${styles.ra} d-md-none`}
                     src={ra}
                     onClick={raClick}
                 ></img>

@@ -10,6 +10,14 @@
 .blendsContainer {
     display: flex;
     align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .blendsContainer {
+        max-width: none;
+    }
 }
 
 .tabsWindow {
