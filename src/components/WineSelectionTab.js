@@ -6,7 +6,11 @@ import Card from 'react-bootstrap/Card';
 const WineTastingTab = () => {
     return (
         <Card className="stdBoxShadow" className={styles.mainContainer}>
-            <Card.Img variant="top" src={houseBlendImg} />
+            <Card.Img
+                className={styles.cardImg}
+                variant="top"
+                src={houseBlendImg}
+            />
             <Card.Body style={{ backgroundColor: '#373e4033' }}>
                 <Card.Title>
                     <span className="redText">House</span> Blend

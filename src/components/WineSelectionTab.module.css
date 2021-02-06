@@ -1,4 +1,8 @@
 .mainContainer {
     background: none;
-    width: 12rem;
+    width: 11.5rem;
+}
+
+.cardImg {
+    height: 16rem;
 }
