@@ -1,0 +1,18 @@
+.tableDiv {
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.tableImg {
+    height: 9rem;
+    max-width: 600px;
+    width: 14rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+    .tableImg {
+        width: 13rem;
+    }
+}
