@@ -8,7 +8,7 @@ const Header = () => {
                     className="redText"
                     style={{ fontFamily: 'Charm, cursive' }}
                 >
-                    Globules Vineyard
+                    Magdalenos Vineyard
                 </h1>
             </div>
         </div>

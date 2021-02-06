@@ -13,16 +13,18 @@ const WineSelection = () => {
                 <h2>
                     <span className="redText">Wine</span> Selection
                 </h2>
-            </div>{' '}
-            <img className={styles.arrow} src={la}></img>
-            <div className={styles.tabsContainer}>
-                <div className={styles.tabsWindow}>
-                    <WineSelectionTab></WineSelectionTab>
-                    <WineSelectionTab></WineSelectionTab>
-                    <WineSelectionTab></WineSelectionTab>
-                </div>
             </div>
-            <img className={styles.arrow} src={ra}></img>
+            <div className={styles.blendsContainer}>
+                <img className={styles.arrow} src={la}></img>
+                <div className={styles.tabsWindow}>
+                    <div className={styles.tabsContainer}>
+                        <WineSelectionTab></WineSelectionTab>
+                        <WineSelectionTab></WineSelectionTab>
+                        <WineSelectionTab></WineSelectionTab>
+                    </div>
+                </div>
+                <img className={styles.arrow} src={ra}></img>
+            </div>
         </div>
     );
 };

@@ -7,12 +7,21 @@
     text-align: center;
 }
 
+.blendsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.tabsWindow {
+    width: 12rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
 .tabsContainer {
+    width: 36rem;
     display: flex;
     text-align: center;
-    width: 12rem;
-    margin: 0 auto;
-    align-items: center;
 }
 
 .arrow {
