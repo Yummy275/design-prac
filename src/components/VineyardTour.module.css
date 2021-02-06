@@ -1,0 +1,44 @@
+.mainContainer {
+    margin-top: 1rem;
+}
+
+.titleDiv {
+    text-align: center;
+}
+
+.exploreWord {
+    width: 100%;
+    max-height: 440px;
+    display: block;
+    font-size: 23vw;
+}
+
+.exploreDiv {
+    background-image: url('../images/vineyard-tour.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.infoDiv {
+    width: 80%;
+    margin: 0 auto;
+}
+@media (min-width: 1600px) {
+    .exploreWord {
+        font-size: 380px;
+    }
+
+    .infoDiv {
+        margin: 3rem auto 0 auto;
+    }
+}
+.tourImg {
+    width: 100%;
+    max-height: 500px;
+    margin: 0 auto 1rem auto;
+}
