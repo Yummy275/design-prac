@@ -7,7 +7,7 @@ const WineTastingTab = ({ title, pic, desc }) => {
     //splits title into ar of 2 strings
     const wordArr = title.split(' ');
     return (
-        <Card className="stdBoxShadow" className={styles.mainContainer}>
+        <Card className={`${styles.mainContainer} stdBoxShadow`}>
             <Card.Img className={styles.cardImg} variant="top" src={pic} />
             <Card.Body
                 className={styles.cardBody}
