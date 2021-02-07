@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Intro from './components/Intro';
 import WineSelection from './components/WineSelection';
 import VineyardTour from './components/VineyardTour';
+import VisitUs from './components/VisitUs';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Intro></Intro>
                 <WineSelection></WineSelection>
                 <VineyardTour></VineyardTour>
+                <VisitUs></VisitUs>
             </Container>
         </div>
     );

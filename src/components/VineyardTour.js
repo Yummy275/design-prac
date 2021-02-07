@@ -23,13 +23,14 @@ const VineyardTour = () => {
             </div>
             <div className={style.infoDiv}>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque bibendum velit urna, non mollis sapien venenatis ac.
-                    Nam commodo, leo eget venenatis ornare, diam ipsum sodales
-                    augue, efficitur ultrices mauris eros at arcu. Pellentesque
-                    dapibus tortor est, non rhoncus est lobortis vitae.
-                    Pellentesque ac sem interdum, consequat nunc cursus, viverra
-                    purus. Integer ut scelerisque lorem.
+                    <span className="redText">Lorem</span> ipsum dolor sit amet,
+                    consectetur adipiscing elit. Quisque bibendum velit urna,
+                    non mollis sapien venenatis ac. Nam commodo, leo eget
+                    venenatis ornare, diam ipsum sodales augue, efficitur
+                    ultrices mauris eros at arcu. Pellentesque dapibus tortor
+                    est, non rhoncus est lobortis vitae. Pellentesque ac sem
+                    interdum, consequat nunc cursus, viverra purus. Integer ut
+                    scelerisque lorem.
                 </p>
                 <img
                     className={`${style.tourImg} stdBoxShadow`}
@@ -37,15 +38,15 @@ const VineyardTour = () => {
                     alt="cutting grapes"
                 ></img>
                 <p>
-                    Proin ipsum sapien, scelerisque sed vulputate ac, sodales
-                    fermentum sapien. Fusce vulputate tristique ligula in
-                    convallis. Nam vitae pharetra mi, at dictum nibh. Vestibulum
-                    ante ipsum primis in faucibus orci luctus et ultrices
-                    posuere cubilia curae; Aliquam in laoreet turpis, a euismod
-                    neque. Pellentesque ut efficitur ante, non ullamcorper
-                    ligula. Nunc congue ligula a enim porttitor viverra. In
-                    convallis ultricies ante, sed malesuada mauris consectetur
-                    sed. Aenean id tincidunt massa.
+                    <span className="redText">Proin</span> ipsum sapien,
+                    scelerisque sed vulputate ac, sodales fermentum sapien.
+                    Fusce vulputate tristique ligula in convallis. Nam vitae
+                    pharetra mi, at dictum nibh. Vestibulum ante ipsum primis in
+                    faucibus orci luctus et ultrices posuere cubilia curae;
+                    Aliquam in laoreet turpis, a euismod neque. Pellentesque ut
+                    efficitur ante, non ullamcorper ligula. Nunc congue ligula a
+                    enim porttitor viverra. In convallis ultricies ante, sed
+                    malesuada mauris consectetur sed. Aenean id tincidunt massa.
                 </p>
                 <img
                     className={`${style.tourImg} stdBoxShadow`}
