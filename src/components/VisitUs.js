@@ -17,7 +17,7 @@ const VisitUs = () => {
                     src={reuben}
                     alt="thumbs-up"
                 ></img>
-                <p style={{ marginLeft: '1rem' }}>
+                <p style={{ margin: '1rem 0 0 1rem' }}>
                     <span className="redText">Lorem</span> ipsum dolor sit amet,
                     consectetur adipiscing elit. Aliquam tincidunt elit a augue
                     fermentum, at ultricies orci vestibulum. Donec posuere

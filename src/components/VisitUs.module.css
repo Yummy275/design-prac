@@ -14,7 +14,7 @@
 }
 
 @media (min-width: 992px) {
-    .infoDiv {
+    .mainContainer .infoDiv {
         align-items: center;
         flex-direction: row;
     }
