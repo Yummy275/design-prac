@@ -1,0 +1,30 @@
+<svg width="200" height="306" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="202" height="308" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1" transform="rotate(180 100.00000762939452,153) ">
+   <g id="chevron-right">
+    <polygon points="41.349998474121094,0 5.650001525878906,35.70000076293945 122.94999694824219,153 5.650001525878906,270.29998779296875 41.349998474121094,306 194.35000610351562,153 " id="svg_2"/>
+   </g>
+  </g>
+  <g id="svg_3"/>
+  <g id="svg_4"/>
+  <g id="svg_5"/>
+  <g id="svg_6"/>
+  <g id="svg_7"/>
+  <g id="svg_8"/>
+  <g id="svg_9"/>
+  <g id="svg_10"/>
+  <g id="svg_11"/>
+  <g id="svg_12"/>
+  <g id="svg_13"/>
+  <g id="svg_14"/>
+  <g id="svg_15"/>
+  <g id="svg_16"/>
+  <g id="svg_17"/>
+ </g>
+</svg>
